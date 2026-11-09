@@ -39,7 +39,7 @@ Applications*, 2019).
 
 ## GitHub repository link
 
-[<https://github.com/YOUR_USERNAME/2026aj05619>](https://github.com/sndsurya87/nsp1mlassignment2.git)
+[(https://github.com/sndsurya87/nsp1mlassignment2.git)](https://github.com/sndsurya87/nsp1mlassignment2.git)
 
 ## Models used
 
