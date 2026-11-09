@@ -39,7 +39,8 @@ Applications*, 2019).
 
 ## GitHub repository link
 
-[(https://github.com/sndsurya87/nsp1mlassignment2.git)](https://github.com/sndsurya87/nsp1mlassignment2.git)
+[Git Repo](https://github.com/sndsurya87/nsp1mlassignment2.git)
+[Streamlit App](https://nsp1mlassignment2-eqz2pmbyd6vqwvvq9vqcoc.streamlit.app)
 
 ## Models used
 
