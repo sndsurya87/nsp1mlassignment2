@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-09T09:06:17+00:00",
+  "environment": {
+    "python": "3.12.6",
+    "scikit_learn": "1.9.1"
+  },
+  "split": {
+    "train_rows": 9764,
+    "test_rows": 2441,
+    "test_positive_rate": 0.15649324047521507
+  },
+  "baseline_metrics": {
+    "accuracy": 0.8435067595247849,
+    "auc": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "mcc": 0.0
+  },
+  "models": [
+    {
+      "name": "Logistic Regression",
+      "slug": "logistic_regression",
+      "test_metrics": {
+        "accuracy": 0.8750512085210979,
+        "auc": 0.9200801487022877,
+        "precision": 0.5716945996275605,
+        "recall": 0.8036649214659686,
+        "f1": 0.6681175190424374,
+        "mcc": 0.6069045060352193
+      },
+      "cv_mcc": 0.5996766463584365,
+      "best_params": {
+        "C": 0.003,
+        "class_weight": "balanced"
+      },
+      "search_seconds": 4.9
+    },
+    {
+      "name": "Decision Tree",
+      "slug": "decision_tree",
+      "test_metrics": {
+        "accuracy": 0.9000409668168783,
+        "auc": 0.925880249905281,
+        "precision": 0.7197452229299363,
+        "recall": 0.5916230366492147,
+        "f1": 0.6494252873563219,
+        "mcc": 0.595650804522143
+      },
+      "cv_mcc": 0.6010071624634138,
+      "best_params": {
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 6,
+        "min_samples_leaf": 50
+      },
+      "search_seconds": 6.7
+    },
+    {
+      "name": "KNN",
+      "slug": "knn",
+      "test_metrics": {
+        "accuracy": 0.8906185989348627,
+        "auc": 0.9167904157205374,
+        "precision": 0.6910299003322259,
+        "recall": 0.5445026178010471,
+        "f1": 0.6090775988286969,
+        "mcc": 0.5517746974984529
+      },
+      "cv_mcc": 0.5783547921969652,
+      "best_params": {
+        "n_neighbors": 41,
+        "p": 2,
+        "weights": "distance"
+      },
+      "search_seconds": 10.1
+    },
+    {
+      "name": "Naive Bayes",
+      "slug": "naive_bayes",
+      "test_metrics": {
+        "accuracy": 0.8246620237607538,
+        "auc": 0.8737251092763478,
+        "precision": 0.4645061728395062,
+        "recall": 0.7879581151832461,
+        "f1": 0.5844660194174758,
+        "mcc": 0.5096525883266684
+      },
+      "cv_mcc": 0.4927552550310315,
+      "best_params": {
+        "var_smoothing": 0.1
+      },
+      "search_seconds": 1.6
+    },
+    {
+      "name": "Support Vector Machine",
+      "slug": "svm",
+      "test_metrics": {
+        "accuracy": 0.9020893076607948,
+        "auc": 0.8892513775558205,
+        "precision": 0.7173252279635258,
+        "recall": 0.6178010471204188,
+        "f1": 0.6638537271448663,
+        "mcc": 0.6092446058244795
+      },
+      "cv_mcc": 0.6063260697152597,
+      "best_params": {
+        "C": 1.0,
+        "class_weight": null,
+        "gamma": "scale"
+      },
+      "search_seconds": 13.2
+    }
+  ]
+}
